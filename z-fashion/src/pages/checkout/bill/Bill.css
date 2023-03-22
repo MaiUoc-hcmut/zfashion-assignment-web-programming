@@ -1,0 +1,57 @@
+.bill-frame {
+    background-color: #F5F5F5;
+}
+
+.bill {
+    margin: 30px 18px 30px 18px;
+    font-style: normal;
+    color: #111;
+}
+ 
+.bill-frame hr {
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 90%;
+    opacity: 0.3; 
+}
+
+.bill li {
+    font-size: 1.5rem;
+    padding-top: 26px;
+    list-style-position: inside;
+}
+
+.left-list li {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.right-list li {
+    text-align: right;
+    margin-right: 15px;
+}
+.info-bill{
+    display: flex;
+    justify-content: space-between;
+}
+.bill h2 {
+    margin-top: 20px;
+}
+.h2_1{
+    text-align: left;
+    margin-left: 2rem;
+}
+.h2_2{
+    text-align: right;
+    margin-right: 1.5rem;
+}
+.price {
+    color: red;
+}
+.bill h1{
+    padding-top: 2rem;
+    font-weight: 600;
+}
+b{
+    font-weight: 600;
+}

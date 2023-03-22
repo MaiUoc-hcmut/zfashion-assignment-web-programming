@@ -1,0 +1,12 @@
+php_flag display_error on
+ReWriteEngine On
+ReWriteCond %{REQUEST_FILENAME} !-d
+ReWriteCond %{REQUEST_FILENAME} !-f
+
+ReWriteRule ^products/([0-9]+)$ controller/product.php?id=$1 [L]
+ReWriteRule ^products$ controller/product.php [L]
+ReWriteRule ^orders$ controller/order.php [L]
+
+ReWriteRule ^payment_momo_aio$ controller/momoPayment/initPayment.php [L]
+
+ReWriteRule ^users$ controller/user.php [L]

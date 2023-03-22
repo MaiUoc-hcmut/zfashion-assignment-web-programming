@@ -1,0 +1,144 @@
+.redflag {
+    text-align: left;
+    color: crimson;
+    font-size: 10px;
+}
+
+.info {
+    text-align: left;
+    color: black;
+    font-size: 15px;
+}
+
+.input_box {
+    display: flex;
+    /* gap: 5rem; */
+    justify-content: space-between;
+    height: 5rem;
+}
+.input_box_right {
+    border-radius: 30px;
+    background-color: #dfdcdc;
+    border: none;
+    flex: 5;
+    padding-left: 2rem;
+}
+.input_box_left {
+    flex: 3;
+}
+.input_box_left > *:first-child {
+    margin-bottom: 1rem;
+}
+.Signup_text {
+    font-size: 2.5rem;
+}
+
+.Sign_up_text {
+    width: 180px;
+    height: 45px;
+    color: #d6d6d6;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.hr_signin {
+    width: 850px;
+}
+
+.Regist_compo >*:not(:first-child){
+    margin-top: 2rem;
+}
+.login3rd {
+    width: 30%;
+    height: 5rem;
+
+    margin: 0 auto;
+    display: flex;
+}
+
+.fb_link {
+    margin-top: 15px;
+    margin-left: 70px;
+    float: left;
+    text-align: center;
+}
+
+.gg_link {
+    margin-top: 12.5px;
+    text-align: center;
+}
+
+.Login_text {
+    font-size: 15px;
+    color: #5b5959;
+    float: left;
+    text-align: center;
+    margin-top: 12.5px;
+}
+
+.Login_link {
+    font-size: 20px;
+    color: #245ae4;
+    float: right;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.LoginIn {
+    width: 450px;
+    height: 60px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Another_way_to_login {
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.btn-signup {
+    z-index: 1;
+    position: relative;
+    color: white;
+    padding: 1.5rem 3rem;
+    outline: none;
+    border: none;
+    background-color: hsl(236, 32%, 26%);
+    font-size: 1.6rem;
+}
+
+.btn-signup:before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ff4938;
+    transform-origin: center right;
+    transform: scaleX(0);
+    transition: transform 0.25s ease-in-out;
+}
+.btn-signup:hover {
+    cursor: pointer;
+}
+.btn-signup:hover::before {
+    transform-origin: center left;
+    transform: scaleX(1);
+}
+.mt-5 {
+    margin-top: 5rem;
+}
+.mt-10 {
+    margin-top: 10rem;
+}
+.mt-3 {
+    margin-top: 3rem;
+}
+.LoginIn{
+    margin: 0 auto;
+}
